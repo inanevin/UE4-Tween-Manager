@@ -263,7 +263,8 @@ private:
 		// TODO: PROVIDE YOUR OWN WAY OF GETTING THE DELTA TIME HERE
 		// TODO: PROVIDE YOUR OWN WAY OF GETTING THE DELTA TIME HERE
 		// TODO: PROVIDE YOUR OWN WAY OF GETTING THE DELTA TIME HERE
-		const float delta = 0.0f;
+		const float delta = 0.016f;
+		
 		float target = *base + FMath::Sin(m_elapsedTime * speed) * amount * delta * 100;
 		*base = FMath::Lerp(*base, 0.0f, s_shakeBaseResetSpeed * delta);
 		if (m_onTweenUpdated.IsBound())
@@ -287,7 +288,7 @@ private:
 		// TODO: PROVIDE YOUR OWN WAY OF GETTING THE DELTA TIME HERE
 		// TODO: PROVIDE YOUR OWN WAY OF GETTING THE DELTA TIME HERE
 		// TODO: PROVIDE YOUR OWN WAY OF GETTING THE DELTA TIME HERE
-		const float delta = 0.0f;
+		const float delta = 0.016f;
 
 		FVector target = *base + FVector(
 			FMath::Sin(m_elapsedTime * speed.X) * amount.X,
@@ -317,7 +318,7 @@ private:
 		// TODO: PROVIDE YOUR OWN WAY OF GETTING THE DELTA TIME HERE
 		// TODO: PROVIDE YOUR OWN WAY OF GETTING THE DELTA TIME HERE
 		// TODO: PROVIDE YOUR OWN WAY OF GETTING THE DELTA TIME HERE
-		const float delta = 0.0f;
+		const float delta = 0.016f;
 
 		FRotator target = *base + FRotator(
 			FMath::Sin(m_elapsedTime * speed.Pitch) * amount.Pitch,
