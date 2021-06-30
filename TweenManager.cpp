@@ -1,8 +1,7 @@
 // Inan Evin, Copyright 2021
 
 
-#include "Core/TweenManager.h"
-#include "Utility/CommonFunctions.h"
+#include "TweenManager.h"
 
 TMap<ETweenID, CTween*> CTweenManager::s_tweenMap;
 

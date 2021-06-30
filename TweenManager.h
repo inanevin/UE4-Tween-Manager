@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Core/TweenCommon.h"
+#include "TweenCommon.h"
 
 class CTweenManager;
 
