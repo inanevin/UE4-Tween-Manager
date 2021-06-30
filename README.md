@@ -41,7 +41,7 @@ CTweenManager::Get(ETweenID::MyTweenID)->SetRate(0.01f).SetEase(ETweenEase::Sine
 // You can bind OnUpdate or OnCompleted delegates
 CTweenManager::Get(ETweenID::MyTweenID)->Interpolate(&myFloat, 0.0f, 10.0f, 0.5f).OnComplete().BindRaw.....
 
-By getting OnComplete(). you can reach the default UE delegate binding functions. You can use the same for OnUpdate().
+// By getting OnComplete(). you can reach the default UE delegate binding functions. You can use the same for OnUpdate().
 
 
 ```
