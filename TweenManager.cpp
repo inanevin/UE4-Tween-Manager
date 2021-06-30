@@ -136,7 +136,7 @@ void CTweenManager::DebugInformation()
 	for(auto& t: s_tweenMap)
 	{
 		FString tween  = "Tween: " + UEnum::GetValueAsString(t.Value->m_id) + " Is Active: " + (t.Value->IsActive() ? "Yes" : "No");
-		GEngine->AddOnScreenDebugMessage(CInGameDebugger::KTweenManager + index, 0, FColor::Green, tween);
+		GEngine->AddOnScreenDebugMessage(200, 0, FColor::Green, tween);
 		index++;
 	}
 #endif
