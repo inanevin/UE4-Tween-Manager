@@ -1,5 +1,6 @@
 # UE4-Tween-Manager
 Simple C++ class for creating a tweener for built-in UE4 types. Currently supports float, FVector &amp; FRotator
+![image](https://user-images.githubusercontent.com/3519379/123952578-da9a1500-d9ae-11eb-92f0-5d1a7e8ef952.png)
 
 ## Installation - Import
 
