@@ -1,4 +1,13 @@
-// Inan Evin, Copyright 2021
+/*
+ * @author: Inan Evin
+ * @website: www.inanevin.com
+ * @twitter: lineupthesky
+ * @github: inanevin
+ * 
+ * Simple Event Manager, exposed to UE4 Editor via DataTables.
+ * 
+ *  Inan Evin, Copyright 2021
+ */
 
 #pragma once
 
